@@ -30,28 +30,28 @@
 					<img src="../../images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method="post" action="../signin/index.html" id="signupForm">
 					<span class="login100-form-title">
 						用户注册
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email" placeholder="School ID">
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="schoolID" placeholder="School ID">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user" aria-hidden="true"></i>
 						</span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate = "Password is required">
-                        <input class="input100" type="password" name="pass" placeholder="Email">
+                    <div class="wrap-input100 validate-input">
+                        <input class="input100" type="password" name="email" placeholder="Email">
                         <span class="focus-input100"></span>
                         <span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
                     </div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					<div class="wrap-input100 validate-input">
 						<input class="input100" type="password" name="pass" placeholder="Password">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -59,8 +59,8 @@
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password Validation">
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="password" name="passvalid" placeholder="Password Validation">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-check-circle" aria-hidden="true"></i>
@@ -68,7 +68,7 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" type="submit" form="signupForm">
 							Sign Up
 						</button>
 					</div>
