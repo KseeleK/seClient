@@ -57,3 +57,12 @@ footer {
     width: 50%; /* 6 columns */
   }
 }
+
+#leftcolumn{
+}
+
+#rightcolumn{
+}
+.contentrow {
+  margin: 5px;
+}
