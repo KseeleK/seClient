@@ -52,7 +52,7 @@
                     </div>
 
 					<div class="wrap-input100 validate-input">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="pass" placeholder="Password" id="pass1">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -60,15 +60,16 @@
 					</div>
 
 					<div class="wrap-input100 validate-input">
-						<input class="input100" type="password" name="passvalid" placeholder="Password Validation">
+						<input class="input100" type="password" name="pass" placeholder="Password Validation" onkeyup="validate()" id="pass2">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-check-circle" aria-hidden="true"></i>
 						</span>
 					</div>
+					<span id="tips"></span>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" type="submit" form="signupForm">
+						<button class="login100-form-btn" type="submit" form="signupForm" id="signupButton">
 							Sign Up
 						</button>
 					</div>
@@ -99,6 +100,19 @@
 		$('.js-tilt').tilt({
 			scale: 1.1
 		})
+
+		function validate() {
+			var pwd1 = $("#pass1").val();
+			var pwd2= $("#pass2").val();
+			if(pwd1==pwd2){
+                $("#tips").html("两次密码相同").css("color","green");
+                $("#signupButton").attr("disabled",false);
+			}else{
+                 $("#tips").html("两次密码不相同").css("color","red");
+				//alert("两次密码不同");
+                $("button").attr("disabled","disabled");
+			}
+        }
 	</script>
 <!--===============================================================================================-->
 	<script src="../../js/main.js"></script>
