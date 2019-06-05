@@ -12,3 +12,5 @@
 6. 实验 stulab
 7. 教学日历 stuschedule
 8. 考试信息 stutestmsg
+
+注意：这几个界面应该可以使用旁边的导航栏相互访问
