@@ -8,14 +8,15 @@ $(document).ready(function () {
     // notice_json = $.ajax({url:"/jquery/test1.txt",async:false});
     var course_json;
     $.ajax({
-        url: "./client/json/", async: false, success: function (result) {
+        url: "/client/json/course", async: false, success: function (result) {
             course_json = result;
         }
     });
     // var assignment_json = $.ajax({url:"",async: false});
     // var organization_json = $.ajax({url:"",async: false});
     // var notice_obj=JSON.parse(notice_json);
-    //alert(course_json);
+
+    console.log(course_json);
     var course_obj = JSON.parse(course_json);
 
     // var assignment_obj = JSON.parse(assignment_json);
