@@ -1,1 +1,7 @@
-{"courses":["Math","Chinese"]}
+{
+    "courses":
+    [
+        "Math": id,
+        "Chinese": id
+    ]
+}

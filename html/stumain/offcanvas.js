@@ -8,7 +8,7 @@ $(document).ready(function () {
     // notice_json = $.ajax({url:"/jquery/test1.txt",async:false});
     var course_json;
     $.ajax({
-        url: "/client/json/course", async: false, success: function (result) {
+        url: "/client/json/course/", async: false, success: function (result) {
             course_json = result;
         }
     });
