@@ -1,7 +1,7 @@
 {
     "courses":
     [
-        "Math": id,
-        "Chinese": id
+        "Math",
+        "Chinese"
     ]
 }
