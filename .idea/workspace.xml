@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d790af-692f-4b0a-919f-b434c62449e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/teacher/teacreateclass/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/teacher/teacreateclass/offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/teacher/teacreateclass/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/signin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/signin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourse/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourse/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourse/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourse/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourse/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourseinfo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourseinfo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourseinfo/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourseinfo/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourseinfo/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourseinfo/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourseware/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourseware/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourseware/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourseware/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stucourseware/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourseware/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stufiledownload/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stufiledownload/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stufiledownload/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stufiledownload/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stufiledownload/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stufiledownload/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomework/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomework/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomework/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomeworkmain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomeworkmain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomeworkmain/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomeworkmain/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuhomeworkmain/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomeworkmain/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stulab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stulab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stulab/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stulab/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stulab/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stulab/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stumain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stumain/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stumain/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stumain/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuschedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuschedule/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuschedule/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuschedule/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stuschedule/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuschedule/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stutestmsg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stutestmsg/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stutestmsg/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stutestmsg/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stutestmsg/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stutestmsg/offcanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/student/stumain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/student/stumain/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/offcanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/student/stumain/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stumain/text.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,7 +51,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="48" />
-          <entry key="html" value="2742" />
+          <entry key="html" value="2744" />
           <entry key="js" value="415" />
           <entry key="md" value="269" />
         </counts>
@@ -91,7 +59,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="48" />
-          <entry key="HTML" value="2742" />
+          <entry key="HTML" value="2744" />
           <entry key="JavaScript" value="415" />
           <entry key="PLAIN_TEXT" value="269" />
         </counts>
@@ -175,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/teacher/teamain/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+            <state relative-caret-position="359">
+              <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding>
                 <element signature="n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -363,16 +331,15 @@
       <workItem from="1559477959150" duration="12599000" />
       <workItem from="1559707403624" duration="8814000" />
       <workItem from="1559719456555" duration="423000" />
-      <workItem from="1559966972531" duration="3610000" />
+      <workItem from="1559966972531" duration="3804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25683000" />
+    <option name="totallyTimeSpent" value="25877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="840" height="980" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24908425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -669,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/teacher/teamain/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+        <state relative-caret-position="359">
+          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding>
             <element signature="n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>

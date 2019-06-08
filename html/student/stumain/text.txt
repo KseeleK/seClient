@@ -1,6 +1,1 @@
-{
-    "courses": [
-        "Math",
-        "Chinese"
-    ]
-}
+{"courses":["Math","Chinese"]}
