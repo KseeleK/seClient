@@ -77,58 +77,38 @@
                         <div id="pageTitleBar">
                             <h1 id="pageTitleHeader">
                                 <span id="pageTitleText">
-                                    <span>课程信息</span>
+                                    <span>添加学生</span>
                                 </span>
                             </h1>
                         </div>
                     </div>
                     <div class="container">
-                        <div class="vtbegenerated">
-                        <p>
-                            <span style="color: #ff0000; font-size: medium;">主要参考教材：</span>
-                        </p>
-                        <ul>
-                            <li>Operating System Concepts 7th(影印版), Abrraham Silberschatz、Peter Galvin，Greg Gagne，高等教育出版社，2005</li>
-                            <li><strong>Operating System Concepts <span style="color: #0000ff;">10th</span>, Abrraham Silberschatz、Peter Galvin，Greg Gagne ，Wiley，2018</strong></li>
-                            <li><strong>边干边学－Linux内核指导，李善平、季江民、尹康凯等，浙江大学出版社，2008.4年<span style="font-size: 20.0pt;"><span style="color: #cc6600; font-family: 'Monotype Sorts'; font-size: 80%;"></span></span></strong></li>
-                            <li><strong><span style="font-family: comic sans ms,sans-serif; font-size: small; color: #000000;">操作系统设计与实现，陈文智等，高教出版社，2016年</span></strong></li>
-                        </ul>
-                        <p><span style="color: #ff0000; font-size: medium;">其他参考书：</span></p>
-                        <ul>
-                            <li><strong>操作系统概念（翻译版，第9版），郑扣根译，机械工业出版社，2018。</strong></li>
-                            <li>Operation System Design and Implementation ， Andrew S Tanenbaum, Albert S Woodhull, Prentice Hall ,2006.</li>
-                            <li>深入理解计算机系统. Randal E.Bryant等著. 龚奕利等译. 机械工业出版社. 2011.8。</li>
-                            <li>操作系统考研辅导.季江民等.清华大学出版社，2010.10</li>
-                            <li>深入理解Lniux内核，第三版， Daniel P.&nbsp;Bovet, Marco&nbsp;Cesati ，陈莉君等译，中国电力出版社，2007.9</li>
-                            <li>深入Linux内核架构,wolfgang著，郭旭译，人民邮电出版社，2010.6</li>
-                            <li>深度探索Linux操作系统系统架构和原理解析，王伯生，机械工业出版社，2014.1</li>
-                            <li>Linux/UNIX系统编程手册，Michael Kerrisk著，孙剑等译， 人民邮电出版社，2014.1</li>
-                            <li>Linux Kernel Development ，Second Edition ，Robert&nbsp;Love ，January 12, 2005</li>
-                        </ul>
-                            <p><span style="color: #ff0000; font-size: medium;">视频学习（中国大学资源共享课程）：</span></p>
-                            <p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; http://www.icourses.cn/coursestatic/course_6801.html</p>
-                            <p><span style="color: #ff0000; font-size: medium;">课程成绩评定： </span></p>
-                            <ul>
-                                <li>期末考试：50%</li>
-                                <li>作业（Homework）：10%</li>
-                                <li>平时演讲讨论和研究报告：12%
-                                    <ul>
-                                        <li>提交研究报告2个以上 (6%)</li>
-                                        <li>至少参加1次课堂演讲，或课堂讨论发言2次以上(6%)</li>
-                                    </ul> </li>
-                                <li>平时课堂练习：7%</li>
-                                <li>实验设计报告：12%</li>
-                                <li>实验验收：9%</li>
-                            </ul>
-                            <p><span style="color: #ff0000; font-size: medium;">实验： </span></p>
-                            <ul>
-                                <li>上机、验收时间：<span style="color: #ff6600;"><strong>周日11、12节</strong></span></li>
-                                <li>地点： 玉泉校区计算机学院机房，曹西301机房， 本人计算机</li>
-                                <li>实验验收在周日晚上，地点曹西301机房</li>
-                                <li>助教在周日总是在机房</li>
-                            </ul>
-                            <br>
-                        </div>
+
+                        <form role="form" class="form-info" name="addstuform" action="" method="post">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>学生姓名</th>
+                                                <th>学生学号</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                    <div class="form-inline" style="margin-top: -17px;">
+                                        <input class="form-control" id="stuname" type="text">
+                                        <input class="form-control" id="stuid" type="text">
+                                        <button type="button" class="btn btn-lg btn-primary" onclick="add_stu()">
+                                            添加
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn-sm btn-primary">提交</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
