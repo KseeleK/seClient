@@ -22,6 +22,6 @@ $(document).ready(function () {
     // var assignment_obj = JSON.parse(assignment_json);
     // var organization_obj = JSON.parse(organization_json);
     for (i = 0; i < course_obj.courses.length; i++)
-        $("#courseList").append('<li class=\"list-group-item\">' + course_obj.courses[i] + "</li>")
+        $("#courseList").append('<li class=\"list-group-item\" href="/client/class/'+course_obj.courses[i]+'">' + course_obj.courses[i] + "</li>")
 
 });
