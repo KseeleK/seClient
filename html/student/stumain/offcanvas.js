@@ -17,7 +17,6 @@ $(document).ready(function () {
     // var notice_obj=JSON.parse(notice_json);
 
     console.log(course_json);
-    alert(course_json)
     var course_obj = JSON.parse(course_json);
 
     // var assignment_obj = JSON.parse(assignment_json);
