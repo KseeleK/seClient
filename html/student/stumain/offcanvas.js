@@ -10,8 +10,8 @@ $(document).ready(function () {
     // var cookie_value = $.cookie('the_cookie');
     console.log(document.cookie);
     $.ajax({
-        headers: {'Cookie' : "_jly:12777777" },
-        url: "/client/json/course/", async: false,
+        //headers: {'Cookie': document.cookie},
+        url: "/client/html/student/stumain/json/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
