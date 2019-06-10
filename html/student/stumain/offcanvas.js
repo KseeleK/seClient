@@ -7,8 +7,13 @@ $(document).ready(function () {
 
     // notice_json = $.ajax({url:"/jquery/test1.txt",async:false});
     var course_json;
+    var cookie_value = $.cookie('the_cookie');
     $.ajax({
-        url: "/client/json/course/", async: false, success: function (result) {
+        url: "/client/json/course/", async: false,
+        xhrFields: {
+            withCredentials: true // 这里设置了withCredentials
+        },
+        success: function (result) {
             course_json = result;
         }
     });
