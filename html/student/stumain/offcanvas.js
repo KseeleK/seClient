@@ -11,7 +11,7 @@ $(document).ready(function () {
     console.log(document.cookie);
     $.ajax({
         //headers: {'Cookie': document.cookie},
-        url: "/client/html/student/stumain/json/", async: false,
+        url: "/client/json/course/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
@@ -31,10 +31,12 @@ $(document).ready(function () {
     // var organization_obj = JSON.parse(organization_json);
     for (i = 0; i < course_obj.courses.length; i++) {
         $("#courseList").append('<li class=\"list-group-item\">' +
-            '<a href=\"/client/class/' + course_obj.courses[i] + '\">' +
+            '<a href="/client/html/student/stucourse/index.html?class=' + course_obj.courses[i] + '">' +
+            // '<a href=\"/client/stu' + course_obj.courses[i] + '\">' +
             course_obj.courses[i] +
             '</a>' +
-            "</li>")
+            "</li>"
+        )
     }
 
 });
