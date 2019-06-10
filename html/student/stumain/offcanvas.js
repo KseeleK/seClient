@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     // notice_json = $.ajax({url:"/jquery/test1.txt",async:false});
     var course_json;
-    var cookie_value = $.cookie('the_cookie');
+    // var cookie_value = $.cookie('the_cookie');
     $.ajax({
         url: "/client/json/course/", async: false,
         xhrFields: {
