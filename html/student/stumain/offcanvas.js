@@ -8,7 +8,7 @@ $(document).ready(function () {
     // notice_json = $.ajax({url:"/jquery/test1.txt",async:false});
     var course_json;
     $.ajax({
-        url: "text.txt", async: false, success: function (result) {
+        url: "/client/json/course/", async: false, success: function (result) {
             course_json = result;
         }
     });
@@ -23,7 +23,7 @@ $(document).ready(function () {
     // var organization_obj = JSON.parse(organization_json);
     for (i = 0; i < course_obj.courses.length; i++) {
         $("#courseList").append('<li class=\"list-group-item\">' +
-            '<a href=\"/client/class/' + course_obj.courses[i] + '/\">' +
+            '<a href=\"/client/class/' + course_obj.courses[i] + '\">' +
             course_obj.courses[i] +
             '</a>' +
             "</li>")
