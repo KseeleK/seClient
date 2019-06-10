@@ -8,11 +8,14 @@ $(document).ready(function () {
     // notice_json = $.ajax({url:"/jquery/test1.txt",async:false});
     var course_json;
     // var cookie_value = $.cookie('the_cookie');
+    alert(document.cookie);
     $.ajax({
+        headers: {'Cookie' : "_jly:12777777" },
         url: "/client/json/course/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
+        crossDomain: true,
         success: function (result) {
             course_json = result;
         }
