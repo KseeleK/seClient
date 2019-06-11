@@ -3,14 +3,21 @@ $(document).ready(function () {
         $('.row-offcanvas').toggleClass('active')
     });
     // alert("1234");
-    var info_json;
+    var course_json;
+    console.log(document.cookie);
     $.ajax({
-        url: "json/", async: false, success: function (result) {
-            info_json = result;
+        //headers: {'Cookie': document.cookie},
+        url: "/client/html/student/stucourse/json/", async: false,
+        xhrFields: {
+            withCredentials: true // 这里设置了withCredentials
+        },
+        crossDomain: true,
+        success: function (result) {
+            course_json = result;
         }
     });
-    console.log(info_json);
-    var course_obj = JSON.parse(info_json);
+    console.log(course_json);
+    var course_obj = JSON.parse(course_json);
     // alert(course_obj.description);
     var txt3 = document.createElement("p");
     txt3.innerHTML = course_obj.description;
