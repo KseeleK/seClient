@@ -34,9 +34,9 @@ $(document).ready(function () {
             // '<a href="/client/html/student/stucourse/index.html?class=' + course_obj.courses[i] + '">' +
             // '<a href=\"/client/stu' + course_obj.courses[i] + '\">' +
             '<a href="/client/html/student/stucourse/index.html?class=' + course_obj.courses[i] + '">' +
-        course_obj.courses[i] +
-        '</a>' +
-        "</li>"
-    )
+            course_obj.courses[i] +
+            '</a>' +
+            "</li>"
+        )
     }
-}
+});
