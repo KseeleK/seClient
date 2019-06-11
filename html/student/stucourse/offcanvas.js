@@ -7,7 +7,7 @@ $(document).ready(function () {
     console.log(document.cookie);
     $.ajax({
         //headers: {'Cookie': document.cookie},
-        url: "/client/html/student/stucourse/json/", async: false,
+        url: "/client/json/courseDesc/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
