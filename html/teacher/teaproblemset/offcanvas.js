@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         var question_json;
         $.ajax({
-            url: "./text.txt", async: false,
+            url: "/client/json/questions/", async: false,
             xhrFields: {
                 withCredentials: true // 这里设置了withCredentials
             },
@@ -36,7 +36,7 @@ $(document).ready(function () {
               <span>(2分)</span>
               </p>
               </div>
-              <input type="checkbox id="`+(i)+`\"">
+              <input type="checkbox id="` + (i) + `\"">
               <div class="">
                   <label>
                   <input disabled checked name="" type="radio">
@@ -53,7 +53,7 @@ $(document).ready(function () {
             } else {
                 tmp_html = tmp_html +
                     `<span>(2分)</span>
-              <input type="checkbox"id="`+(i)+`">
+              <input type="checkbox"id="` + (i) + `">
 
               </p>
               </div>
@@ -82,7 +82,7 @@ $(document).ready(function () {
                 `</span>
             <div class="problem">
             <div class="ques-view">
-            <p>` + question_obj.choice.problems[i].content + ` <input type="checkbox" id="`+(i+question_obj.judge.number)+`"></p>
+            <p>` + question_obj.choice.problems[i].content + ` <input type="checkbox" id="` + (i + question_obj.judge.number) + `"></p>
                   
 
         <ol class="ques-answer ques-choice ques-list">
@@ -128,8 +128,8 @@ $("#upload").click(function () {
     var count = 0;
     var count1 = 0;
     var arr = [];
-    $.each($('input:checkbox'),function(){
-        if(this.checked){
+    $.each($('input:checkbox'), function () {
+        if (this.checked) {
             // alert(count);
             // window.alert("你选了："+ $('input[type=checkbox]:checked').length+"个，其中有："+$(this).val());
             arr[count1] = count;
@@ -139,11 +139,11 @@ $("#upload").click(function () {
         count++;
     });
     var url = "";
-    $.post(url,{QuestionIDs:arr},function(resultJSONObject){
-        if(resultJSONObject.success){
-            $.messager.alert("系统提示","添加成功","info");
-        }else{
-            $.messager.alert("系统提示","添加失败","error");
+    $.post(url, {QuestionIDs: arr}, function (resultJSONObject) {
+        if (resultJSONObject.success) {
+            $.messager.alert("系统提示", "添加成功", "info");
+        } else {
+            $.messager.alert("系统提示", "添加失败", "error");
         }
-    },"json");
+    }, "json");
 });

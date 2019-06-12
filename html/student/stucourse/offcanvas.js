@@ -6,7 +6,7 @@ $(document).ready(function () {
     var course_json;
     console.log(document.cookie);
     $.ajax({
-        //headers: {'Cookie': document.cookie},
+        //headers: {'Cookie': document.cookie},az
         url: "/client/json/courseDesc/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
