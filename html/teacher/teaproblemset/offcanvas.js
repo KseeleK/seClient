@@ -138,7 +138,7 @@ $("#upload").click(function () {
 
         count++;
     });
-    var url = "";
+    var url = "/client/json/homework/generate/";
     $.post(url, {QuestionIDs: arr}, function (resultJSONObject) {
         if (resultJSONObject.success) {
             $.messager.alert("系统提示", "添加成功", "info");
