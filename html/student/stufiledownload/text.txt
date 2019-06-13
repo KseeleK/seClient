@@ -1,0 +1,12 @@
+{
+    "files":[
+        {
+            "name": "asdasd",
+            "url": "/asd/asd"
+        },
+        {
+             "name": "asdasd",
+             "url": "/asd/asd"
+        }
+    ]
+}
