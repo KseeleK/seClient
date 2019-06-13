@@ -36,7 +36,7 @@ $(document).ready(function () {
               <span>(2分)</span>
               </p>
               </div>
-              <input type="checkbox id="` + (i) + `\"">
+              <input type="checkbox" id="` + (i) + `\"">
               <div class="">
                   <label>
                   <input disabled checked name="" type="radio">
@@ -53,7 +53,7 @@ $(document).ready(function () {
             } else {
                 tmp_html = tmp_html +
                     `<span>(2分)</span>
-              <input type="checkbox"id="` + (i) + `">
+              <input type="checkbox" id="` + (i) + `">
 
               </p>
               </div>
