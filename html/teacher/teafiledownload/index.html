@@ -137,6 +137,13 @@
                             </li>
                         </ul>
                     </div>
+                    <body>
+                    <form action="/upload/fileUpload" method="post" enctype="multipart/form-data">
+                        <input type="file" name="fileUpload" />
+                        <input type="text" name="fileName" placeholder="文件名">
+                        <input type="submit" value="上传文件" />
+                    </form>
+                    </body>
                 </div>
             </div>
         </div><!--/.col-xs-12.col-sm-9-->
@@ -156,11 +163,11 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<script>window.jQuery || document.write('<script src="../../../vendor/jquery/jquery-3.2.1.min.js"><\/script>')</script>
 <script src="../../../dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 <script src="offcanvas.js"></script>
 </body>
 </html>

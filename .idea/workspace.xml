@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d790af-692f-4b0a-919f-b434c62449e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/student/stufiledownload/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/teacher/teafiledownload/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/student/stufiledownload/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stufiledownload/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/student/stufiledownload/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stufiledownload/offcanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teacher/teafiledownload/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teafiledownload/offcanvas.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,9 +32,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
-          <entry key="html" value="63" />
+          <entry key="html" value="64" />
           <entry key="ico" value="1" />
-          <entry key="js" value="22" />
+          <entry key="js" value="23" />
           <entry key="md" value="1" />
           <entry key="text" value="2" />
           <entry key="txt" value="11" />
@@ -43,16 +43,16 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="63" />
+          <entry key="HTML" value="64" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="22" />
+          <entry key="JavaScript" value="23" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="48" />
-          <entry key="html" value="3916" />
+          <entry key="html" value="3958" />
           <entry key="js" value="1876" />
           <entry key="md" value="269" />
           <entry key="txt" value="43" />
@@ -61,7 +61,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="48" />
-          <entry key="HTML" value="3937" />
+          <entry key="HTML" value="3979" />
           <entry key="JavaScript" value="1855" />
           <entry key="PLAIN_TEXT" value="312" />
         </counts>
@@ -100,16 +100,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/student/stufiledownload/offcanvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="34" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#h3#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/offcanvas.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="140" column="52" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -201,7 +218,6 @@
         <option value="$PROJECT_DIR$/html/teacher/tealab/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teahomework/index.html" />
-        <option value="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teacourseware/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teacourseinfo/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teacourse/index.html" />
@@ -210,6 +226,7 @@
         <option value="$PROJECT_DIR$/html/student/stufiledownload/text.txt" />
         <option value="$PROJECT_DIR$/html/student/stufiledownload/index.html" />
         <option value="$PROJECT_DIR$/html/student/stufiledownload/offcanvas.js" />
+        <option value="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" />
       </list>
     </option>
   </component>
@@ -263,49 +280,7 @@
               <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="seClient" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="stuhomework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="stumain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="teacher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teaaddstudent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teacourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teacourseinfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teacourseware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
@@ -395,15 +370,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/student" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/teacher/teafiledownload" />
       <recent name="$PROJECT_DIR$/html/teacher/teaproblemset" />
       <recent name="$PROJECT_DIR$/html/student/stuhomework" />
       <recent name="$PROJECT_DIR$/vendor/jquery" />
       <recent name="$PROJECT_DIR$/html/teacher/teaaddstudent" />
-      <recent name="$PROJECT_DIR$/html/teacher/teacreateclass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/student" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,12 +410,12 @@
       <workItem from="1559966972531" duration="9520000" />
       <workItem from="1560085514056" duration="5336000" />
       <workItem from="1560255521632" duration="8725000" />
-      <workItem from="1560320071158" duration="2052000" />
+      <workItem from="1560320071158" duration="2624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47706000" />
+    <option name="totallyTimeSpent" value="48278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -450,7 +425,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -458,7 +433,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27040815" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27040815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -698,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="69" column="86" selection-start-line="69" selection-start-column="86" selection-end-line="69" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/teacher/teacreateclass/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
@@ -797,13 +765,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/student/stufiledownload/offcanvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="34" />
           <folding>
             <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#h3#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/offcanvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="140" column="52" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
