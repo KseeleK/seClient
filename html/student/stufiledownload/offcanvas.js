@@ -1,13 +1,13 @@
 $(document).ready(function () {
-  $('[data-toggle="offcanvas"]').click(function () {
-    $('.row-offcanvas').toggleClass('active')
-  });
+    $('[data-toggle="offcanvas"]').click(function () {
+        $('.row-offcanvas').toggleClass('active')
+    });
 
     var filelist_json;
     console.log(document.cookie);
     $.ajax({
         //headers: {'Cookie': document.cookie},
-        url: "text.txt", async: false,
+        url: "/client/resources/files/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
@@ -31,9 +31,9 @@ $(document).ready(function () {
         <img src="../../../images/file_on.gif" class="item_icon" style="float: left;">
         <div class="item" style="height: 30px">
         <h3>
-        <a href="`+filelist_obj.files[i].url+`">
-        <span style="color:#000000;">`+
-            filelist_obj.files[i].name+`
+        <a href="` + filelist_obj.files[i].url + `">
+        <span style="color:#000000;">` +
+            filelist_obj.files[i].name + `
     </span>
     </a>
     </h3>
