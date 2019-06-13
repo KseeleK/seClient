@@ -139,7 +139,8 @@ $("#upload").click(function () {
         count++;
     });
     var url = "/client/json/homework/generate/";
-    $.post(url, {QuestionIDs: arr}, function (resultJSONObject) {
+    alert($("#homeName").val());
+    $.post(url, {QuestionIDs: arr,Name:$("#homeName").val()}, function (resultJSONObject) {
         if (resultJSONObject.success) {
             $.messager.alert("系统提示", "添加成功", "info");
         } else {

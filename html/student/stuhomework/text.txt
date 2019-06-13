@@ -1,32 +1,36 @@
 {
-    "choice": {
-        "number": 2,
-        "problems": [
-            {
-                "content": "1+1=?",
-                "choiceA": "123",
-                "choiceB": "1233",
-                "choiceC": "2",
-                "choiceD": "11",
-                "answer": "C"
-            },
-            {
-                "content": "1+2=?",
-                "choiceA": "3",
-                "choiceB": "1233",
-                "choiceC": "2",
-                "choiceD": "11",
-                "answer": "A"
-            }
-        ]
-    },
-    "judge": {
-        "number": 1,
-        "problems": [
-            {
-                "content": "I am a man",
-                "answer": "F"
-            }
-        ]
-    }
+    "id": 0,
+    "name": "homework1",
+    "homework": {
+        "choice": {
+            "number": 2,
+            "problems": [
+                {
+                    "content": "1+1=?",
+                    "choiceA": "123",
+                    "choiceB": "1233",
+                    "choiceC": "2",
+                    "choiceD": "11",
+                    "answer": "C"
+                },
+                {
+                    "content": "1+2=?",
+                    "choiceA": "3",
+                    "choiceB": "1233",
+                    "choiceC": "2",
+                    "choiceD": "11",
+                    "answer": "A"
+                }
+            ]
+        },
+        "judge": {
+            "number": 1,
+            "problems": [
+                {
+                    "content": "I am a man",
+                    "answer": "F"
+                }
+            ]
+        }
+     }
 }
