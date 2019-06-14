@@ -24,12 +24,9 @@
             ]
         },
         "judge": {
-            "number": 1,
+            "number": 0,
             "problems": [
-                {
-                    "content": "I am a man",
-                    "answer": "F"
-                }
+
             ]
         }
      }

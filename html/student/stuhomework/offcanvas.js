@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 
   $.ajax({
-      url: "/client/json/homework/get/", async: false,
+      url: "text.txt", async: false,
       xhrFields: {
           withCredentials: true // 这里设置了withCredentials
       },
@@ -17,59 +17,60 @@ $(document).ready(function () {
   });
   question_obj = JSON.parse(question_json);
     // alert(question_obj.judge.number);
-
+    alert(question_obj.homework.judge.number);
     for(var i=0;i<question_obj.homework.judge.number;i++) {
-      var tmp_html;
-      tmp_html = `
+        var tmp_html;
+        tmp_html = `
             <div class="">
-                    <span>`+
-                        "1-"+(i+1)+
-                            `
+                    <span>` +
+            "1-" + (i + 1) +
+            `
                     </span>
             <div>
             <div>
             <p>` +
-          question_obj.homework.judge.problems[i].content;
-      if (question_obj.homework.judge.problems[i].answer=="T") {
+            question_obj.homework.judge.problems[i].content;
+        if (question_obj.homework.judge.problems[i].answer == "T") {
             tmp_html = tmp_html +
-            `
+                `
               <span>(2分)</span>
               </p>
               </div>
               <div class="">
                   <label>
-                  <input  checked name="`+i+`" type="radio" value="T">
+                  <input  checked name="` + i + `" type="radio" value="T">
                   T
                   </label>
                   &nbsp; &nbsp; &nbsp; &nbsp;
           <label>
-              <input  name="`+i+`" type="radio" value="F">
+              <input  name="` + i + `" type="radio" value="F">
                   F
                   </label>
                   </div>
                   </div>
           `
-      }else{
-          tmp_html = tmp_html +
-              `<span>(2分)</span>
+        } else {
+            tmp_html = tmp_html +
+                `<span>(2分)</span>
 
               </p>
               </div>
               <div class="">
                   <label>
-                  <input name="`+i+`" type="radio" value="T">
+                  <input name="` + i + `" type="radio" value="T">
                   T
                   </label>
                   &nbsp; &nbsp; &nbsp; &nbsp;
           <label>
-              <input checked name="`+i+`" type="radio" value="F">
+              <input checked name="` + i + `" type="radio" value="F">
                   F
                   </label>
                   </div>
                   </div>
             </div>`
-      }
-      $("#ques_entry").append(tmp_html);
+        }
+        $("#ques_entry").append(tmp_html);
+    }
         for (var i = 0; i < question_obj.homework.choice.number; i++) {
             var tmp_html1;
             tmp_html1 = `<div class="problemListItem">
@@ -112,7 +113,7 @@ $(document).ready(function () {
         </div>`;
             $("#ques_entry1").append(tmp_html1);
         }
-  }
+
   }
 );
 
