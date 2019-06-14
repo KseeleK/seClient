@@ -148,9 +148,11 @@ $("#upload").click(function () {
     alert(arr);
     $.post(url, {QuestionIDs: arr, Name: $("#homeName").val()}, function (resultJSONObject) {
         if (resultJSONObject.success) {
-            $.messager.alert("系统提示", "添加成功", "info");
+            // $.messager.alert("系统提示", "添加成功", "info");
+            alert("创建作业成功");
         } else {
-            $.messager.alert("系统提示", "添加失败", "error");
+            // $.messager.alert("系统提示", "添加失败", "error");
+            alert("创建作业失败");
         }
     }, "json");
 });
