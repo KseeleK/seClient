@@ -1,5 +1,4 @@
 var question_obj;
-var id_map = [];
 $(document).ready(function () {
         $('[data-toggle="offcanvas"]').click(function () {
             $('.row-offcanvas').toggleClass('active')
@@ -8,7 +7,7 @@ $(document).ready(function () {
 
         var question_json;
         $.ajax({
-            url: "text.txt", async: false,
+            url: "/client/json/questions/", async: false,
             xhrFields: {
                 withCredentials: true // 这里设置了withCredentials
             },
@@ -20,7 +19,6 @@ $(document).ready(function () {
         // alert(question_obj.judge.number);
 
         for (var i = 0; i < question_obj.judge.number; i++) {
-            id_map[i] = question_obj.judge.problems[i].id;
             var tmp_html;
             tmp_html = `
             <div class="">
@@ -77,8 +75,6 @@ $(document).ready(function () {
         }
         // alert(question_obj.choice.number);
         for (var i = 0; i < question_obj.choice.number; i++) {
-            id_map[i+question_obj.judge.number] = question_obj.choice.problems[i].id;
-
             var tmp_html1;
             tmp_html1 = `<div class="problemListItem">
             <span class="problemLabel">
@@ -120,7 +116,6 @@ $(document).ready(function () {
         </div>`;
             $("#ques_entry1").append(tmp_html1);
         }
-        alert(id_map);
     }
 );
 
@@ -137,7 +132,7 @@ $("#upload").click(function () {
         if (this.checked) {
             // alert(count);
             // window.alert("你选了："+ $('input[type=checkbox]:checked').length+"个，其中有："+$(this).val());
-            arr[count1] = id_map[count];
+            arr[count1] = count;
             count1++;
         }
 
@@ -145,7 +140,6 @@ $("#upload").click(function () {
     });
     var url = "/client/json/homework/generate/";
     //alert($("#homeName").val());
-    alert(arr);
     $.post(url, {QuestionIDs: arr, Name: $("#homeName").val()}, function (resultJSONObject) {
         if (resultJSONObject.success) {
             $.messager.alert("系统提示", "添加成功", "info");
