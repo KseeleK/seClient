@@ -8,7 +8,7 @@ $(document).ready(function () {
 
         var question_json;
         $.ajax({
-            url: "text.txt", async: false,
+            url: "/client/json/questions/", async: false,
             xhrFields: {
                 withCredentials: true // 这里设置了withCredentials
             },
@@ -77,7 +77,7 @@ $(document).ready(function () {
         }
         // alert(question_obj.choice.number);
         for (var i = 0; i < question_obj.choice.number; i++) {
-            id_map[i+question_obj.judge.number] = question_obj.choice.problems[i].id;
+            id_map[i + question_obj.judge.number] = question_obj.choice.problems[i].id;
 
             var tmp_html1;
             tmp_html1 = `<div class="problemListItem">
