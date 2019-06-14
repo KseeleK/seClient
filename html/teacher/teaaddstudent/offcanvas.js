@@ -8,4 +8,5 @@ function add_stu() {
   counter++;
 $("#stulist").append("<input class=\"form-control\"  type=\"text\" name=\"stuname"+ counter+"\">\n" +
     "<input class=\"form-control\"  type=\"text\" name=\"stuid"+counter+"\"><br>")
+    return false;
 }

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d790af-692f-4b0a-919f-b434c62449e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaaddstudent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teaaddstudent/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/teacher/teaaddstudent/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teaaddstudent/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teacourseinfo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourseinfo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teacourseware/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourseware/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/tealab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/tealab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaschedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teaschedule/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teatestmsg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teatestmsg/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +50,7 @@
         <counts>
           <entry key="css" value="48" />
           <entry key="html" value="4414" />
-          <entry key="js" value="2838" />
+          <entry key="js" value="2849" />
           <entry key="md" value="269" />
           <entry key="txt" value="166" />
         </counts>
@@ -68,7 +59,7 @@
         <counts>
           <entry key="CSS" value="48" />
           <entry key="HTML" value="4435" />
-          <entry key="JavaScript" value="2817" />
+          <entry key="JavaScript" value="2828" />
           <entry key="PLAIN_TEXT" value="435" />
         </counts>
       </usages-collector>
@@ -132,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/teacher/teaaddstudent/offcanvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -518,18 +509,18 @@
       <workItem from="1559966972531" duration="9520000" />
       <workItem from="1560085514056" duration="5336000" />
       <workItem from="1560255521632" duration="8725000" />
-      <workItem from="1560320071158" duration="18900000" />
+      <workItem from="1560320071158" duration="19092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64554000" />
+    <option name="totallyTimeSpent" value="64746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12296564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12296564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -541,7 +532,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27040815" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27040815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -894,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/teacher/teaaddstudent/offcanvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
