@@ -1,5 +1,8 @@
 var question_json;
-var question_objl
+var question_obj;
+var id_map = [];
+
+
 $(document).ready(function () {
   $('[data-toggle="offcanvas"]').click(function () {
     $('.row-offcanvas').toggleClass('active')
@@ -17,8 +20,9 @@ $(document).ready(function () {
   });
   question_obj = JSON.parse(question_json);
     // alert(question_obj.judge.number);
-    alert(question_obj.homework.judge.number);
+    // alert(question_obj.homework.judge.number);
     for(var i=0;i<question_obj.homework.judge.number;i++) {
+        id_map[i] = question_obj.homework.judge.problems[i].id;
         var tmp_html;
         tmp_html = `
             <div class="">
@@ -72,6 +76,8 @@ $(document).ready(function () {
         $("#ques_entry").append(tmp_html);
     }
         for (var i = 0; i < question_obj.homework.choice.number; i++) {
+            id_map[i+question_obj.homework.judge.number] = question_obj.homework.choice.problems[i].id;
+
             var tmp_html1;
             tmp_html1 = `<div class="problemListItem">
             <span class="problemLabel">
@@ -126,14 +132,17 @@ $("#upload").click(function () {
     var count = 0;
     var count1 = 0;
     var arr = new Array();
+    var arr1 = new Array();
     for(var i = 0; i < question_obj.homework.choice.number+question_obj.homework.judge.number;i++) {
         var tmp = i.toString();
         arr[i] = ($("input[name="+tmp+"]:checked").val());
+        arr1[i] = id_map[i];
     }
-    alert(arr);
+    // alert(arr);
+    // alert(arr1);
     var url = "/client/json/homework/submit/";
     // alert($("#homeName").val());
-    $.post(url, {QuestionIDs: arr,Name:$("#homeName").val()}, function (resultJSONObject) {
+    $.post(url, {HomeworkID: arr1,HomeworkAns:arr,Name:$("#homeName").val()}, function (resultJSONObject) {
         if (resultJSONObject.success) {
             $.messager.alert("系统提示", "添加成功", "info");
         } else {
