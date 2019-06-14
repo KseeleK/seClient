@@ -1,10 +1,11 @@
+var question_json;
+var question_objl
 $(document).ready(function () {
   $('[data-toggle="offcanvas"]').click(function () {
     $('.row-offcanvas').toggleClass('active')
   });
 
 
-  var question_json;
   $.ajax({
       url: "/client/json/homework/get/", async: false,
       xhrFields: {
@@ -14,7 +15,7 @@ $(document).ready(function () {
           question_json = result;
       }
   });
-  var question_obj = JSON.parse(question_json);
+  question_obj = JSON.parse(question_json);
     // alert(question_obj.judge.number);
 
     for(var i=0;i<question_obj.homework.judge.number;i++) {
@@ -37,12 +38,12 @@ $(document).ready(function () {
               </div>
               <div class="">
                   <label>
-                  <input disabled checked name="" type="radio">
+                  <input  checked name="`+i+`" type="radio" value="T">
                   T
                   </label>
                   &nbsp; &nbsp; &nbsp; &nbsp;
           <label>
-              <input disabled name="" type="radio">
+              <input  name="`+i+`" type="radio" value="F">
                   F
                   </label>
                   </div>
@@ -56,12 +57,12 @@ $(document).ready(function () {
               </div>
               <div class="">
                   <label>
-                  <input disabled name="" type="radio">
+                  <input name="`+i+`" type="radio" value="T">
                   T
                   </label>
                   &nbsp; &nbsp; &nbsp; &nbsp;
           <label>
-              <input disabled checked name="" type="radio">
+              <input checked name="`+i+`" type="radio" value="F">
                   F
                   </label>
                   </div>
@@ -83,25 +84,25 @@ $(document).ready(function () {
         <ol class="ques-answer ques-choice ques-list">
             <li>
             <label>
-            <input disabled name="ques15" type="radio">
+            <input  name="`+(i+question_obj.homework.judge.number)+`" type="radio" value="A">
             </label>` +
                 question_obj.homework.choice.problems[i].choiceA + `
         </li>
         <li>
         <label>
-        <input disabled name="ques15" type="radio">
+        <input  name="`+(i+question_obj.homework.judge.number)+`" type="radio" value="B">
             </label>` +
                 question_obj.homework.choice.problems[i].choiceB + `
         </li>
         <li>
         <label>
-        <input disabled name="ques15" type="radio">
+        <input  name="`+(i+question_obj.homework.judge.number)+`" type="radio" value="C">
             </label>` +
                 question_obj.homework.choice.problems[i].choiceC + `
         </li>
         <li>
         <label>
-        <input disabled name="ques15" type="radio">
+        <input  name="`+(i+question_obj.homework.judge.number)+`" type="radio" value="D">
             </label>` +
                 question_obj.homework.choice.problems[i].choiceD + `
         </li>
@@ -114,3 +115,28 @@ $(document).ready(function () {
   }
   }
 );
+
+$("#upload").click(function () {
+    // for(var i=0;i<question_obj.choice.number+question_obj.judge.number;i++) {
+    //     var tmp = i.toString();
+    //     alert($("input[id=tmp]").checked(
+    //     ));
+    // }
+    var count = 0;
+    var count1 = 0;
+    var arr = new Array();
+    for(var i = 0; i < question_obj.homework.choice.number+question_obj.homework.judge.number;i++) {
+        var tmp = i.toString();
+        arr[i] = ($("input[name="+tmp+"]:checked").val());
+    }
+    alert(arr);
+    var url = "/client/json/homework/submit/";
+    // alert($("#homeName").val());
+    $.post(url, {QuestionIDs: arr,Name:$("#homeName").val()}, function (resultJSONObject) {
+        if (resultJSONObject.success) {
+            $.messager.alert("系统提示", "添加成功", "info");
+        } else {
+            $.messager.alert("系统提示", "添加失败", "error");
+        }
+    }, "json");
+});
