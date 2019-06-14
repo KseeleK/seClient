@@ -1,0 +1,16 @@
+{
+"homework_list":[
+    {
+    "id":0,
+    "name":"asd"
+    },
+    {
+    "id":1,
+    "name":"asd"
+    },
+    {
+    "id":2,
+    "name":"asd"
+    }
+]
+}
