@@ -1,13 +1,13 @@
 $(document).ready(function () {
-  $('[data-toggle="offcanvas"]').click(function () {
-    $('.row-offcanvas').toggleClass('active')
-  });
+    $('[data-toggle="offcanvas"]').click(function () {
+        $('.row-offcanvas').toggleClass('active')
+    });
 
     var homework_json;
     console.log(document.cookie);
     $.ajax({
         //headers: {'Cookie': document.cookie},
-        url: "text.txt", async: false,
+        url: "/client/json/homework/list/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
@@ -26,14 +26,14 @@ $(document).ready(function () {
     // var assignment_obj = JSON.parse(assignment_json);
     // var organization_obj = JSON.parse(organization_json);
     for (i = 0; i < homework_obj.homework_list.length; i++) {
-      var tmp_html =
-        `<li id="contentListItem:3" style="padding: 20px 30px;">
+        var tmp_html =
+            `<li id="contentListItem:3" style="padding: 20px 30px;">
             <img src="../../../images/test_on.gif" class="item_icon" style="float: left">
             <div class="item" style="height: 30px">
             <h3>
             <a href="#">
-            <span style="color:#000000;">`+
-            homework_obj.homework_list[i].name+`
+            <span style="color:#000000;">` +
+            homework_obj.homework_list[i].name + `
         </span>
         </a>
         </h3>
