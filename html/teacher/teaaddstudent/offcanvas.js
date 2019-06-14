@@ -3,8 +3,9 @@ $(document).ready(function () {
     $('.row-offcanvas').toggleClass('active')
   });
 });
-
+var counter = 0;
 function add_stu() {
-$("#stulist").append("<input class=\"form-control\" id=\"stuname\" type=\"text\">\n" +
-    "<input class=\"form-control\" id=\"stuid\" type=\"text\">")
+  counter++;
+$("#stulist").append("<input class=\"form-control\"  type=\"text\" name=\"stuname"+ counter+"\">\n" +
+    "<input class=\"form-control\"  type=\"text\" name=\"stuid"+counter+"\"><br>")
 }

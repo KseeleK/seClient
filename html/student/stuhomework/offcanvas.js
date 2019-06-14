@@ -9,7 +9,7 @@ $(document).ready(function () {
         });
 
         $.ajax({
-            url: "/client/json/homework/get/", async: false,
+            url: "text.txt", async: false,
             xhrFields: {
                 withCredentials: true // 这里设置了withCredentials
             },
