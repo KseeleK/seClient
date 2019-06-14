@@ -87,7 +87,7 @@
                     </div>
                     <div class="container">
 
-                        <form role="form" class="form-info" name="addstuform" action="/client/json/addStudent/" method="post">
+                        <form role="form" class="form-info" name="addstuform" action="/client/json/addStudent/" method="post" id="addstuform">
                             <div class="form-group">
                                 <div class="col-sm-6">
                                     <table class="table">
@@ -95,22 +95,23 @@
                                             <tr>
                                                 <th>学生姓名</th>
                                                 <th>学生学号</th>
-                                                <th>操作</th>
                                             </tr>
                                         </thead>
                                     </table>
-                                    <div class="form-inline" style="margin-top: -17px;">
+                                    <div class="form-inline" style="margin-top: -17px;" id="stulist">
                                         <input class="form-control" id="stuname" type="text">
                                         <input class="form-control" id="stuid" type="text">
-                                        <button type="button" class="btn btn-lg btn-primary" onclick="add_stu()">
-                                            添加
-                                        </button>
+
                                     </div>
+                                    <button type="button" class="btn btn-lg btn-primary" onclick="add_stu()">
+                                        添加
+                                    </button>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <button type="button" class="btn-sm btn-primary">提交</button>
-                            </div>
+                            <input type="submit">
+                            <!--<div class="form-group">-->
+                                <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
+                            <!--</div>-->
                         </form>
                     </div>
                 </div>
