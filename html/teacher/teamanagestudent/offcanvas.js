@@ -4,6 +4,7 @@ $(document).ready(function () {
   });
 });
 var counter = 0;
+var counter1 = 0;
 function add_stu() {
   counter++;
 $("#stulist").append("<input class=\"form-control\"  type=\"text\" name=\"stuname"+ counter+"\">\n" +
@@ -12,8 +13,8 @@ $("#stulist").append("<input class=\"form-control\"  type=\"text\" name=\"stunam
 }
 
 function delete_stu() {
-    counter++;
-    $("#stulist1").append("<input class=\"form-control\"  type=\"text\" name=\"stuname"+ counter+"\">\n" +
+    counter1++;
+    $("#stulist1").append("<input class=\"form-control\"  type=\"text\" name=\"stuname"+ counter1+"\">\n" +
         "<input class=\"form-control\"  type=\"text\" name=\"stuid"+counter+"\"><br>")
     return false;
 }''

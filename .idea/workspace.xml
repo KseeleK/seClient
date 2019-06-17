@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d790af-692f-4b0a-919f-b434c62449e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/teacher/teamanageta/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/student/stucourse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stucourse/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/student/stuhomework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/student/stuhomework/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ta/taproblemset/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ta/taproblemset/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaaddstudent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teamanagestudent/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaaddstudent/offcanvas.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaaddstudent/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teacourse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourse/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teacourseinfo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourseinfo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teacourseware/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourseware/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teahomework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teahomework/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/tealab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/tealab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaproblemset/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teaproblemset/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teaschedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teaschedule/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/teacher/teatestmsg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teatestmsg/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +31,7 @@
           <entry key="css" value="16" />
           <entry key="html" value="228" />
           <entry key="ico" value="1" />
-          <entry key="js" value="61" />
+          <entry key="js" value="62" />
           <entry key="md" value="1" />
           <entry key="text" value="2" />
           <entry key="txt" value="21" />
@@ -63,7 +42,7 @@
           <entry key="CSS" value="16" />
           <entry key="HTML" value="228" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="61" />
+          <entry key="JavaScript" value="62" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -71,7 +50,7 @@
         <counts>
           <entry key="css" value="144" />
           <entry key="html" value="4792" />
-          <entry key="js" value="2888" />
+          <entry key="js" value="2908" />
           <entry key="md" value="269" />
           <entry key="txt" value="166" />
         </counts>
@@ -80,7 +59,7 @@
         <counts>
           <entry key="CSS" value="144" />
           <entry key="HTML" value="4815" />
-          <entry key="JavaScript" value="2865" />
+          <entry key="JavaScript" value="2885" />
           <entry key="PLAIN_TEXT" value="435" />
         </counts>
       </usages-collector>
@@ -91,20 +70,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
-              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teamanageta/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -142,6 +112,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/offcanvas.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -156,7 +135,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/ta/tacourse/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -240,10 +219,10 @@
         <option value="$PROJECT_DIR$/html/teacher/teacourse/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaschedule/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teatestmsg/index.html" />
-        <option value="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" />
         <option value="$PROJECT_DIR$/html/teacher/teamanagestudent/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teamanageta/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaproblemset/index.html" />
+        <option value="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" />
       </list>
     </option>
   </component>
@@ -493,12 +472,12 @@
       <workItem from="1560085514056" duration="5336000" />
       <workItem from="1560255521632" duration="8725000" />
       <workItem from="1560320071158" duration="21353000" />
-      <workItem from="1560771267856" duration="2430000" />
+      <workItem from="1560771267856" duration="2962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69437000" />
+    <option name="totallyTimeSpent" value="69969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -755,27 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/ta/tatestmsg/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,6 +794,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
