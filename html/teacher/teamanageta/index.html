@@ -62,7 +62,7 @@
             <div class="list-group">
                 <a href="../teacourse" class="list-group-item">课程通知</a>
                 <a href="../teatestmsg/index.html" class="list-group-item">考试安排</a>
-                <a href="/index.html" class="list-group-item active">课程信息</a>
+                <a href="/index.html" class="list-group-item">课程信息</a>
                 <a href="../teaschedule/index.html" class="list-group-item">教学日历</a>
                 <a href="../teacourseware/index.html" class="list-group-item">课件</a>
                 <a href="../teahomeworkmain/index.html" class="list-group-item">作业</a>
@@ -70,7 +70,8 @@
                 <a href="../tealab/index.html" class="list-group-item">实验</a>
                 <a href="#" class="list-group-item">quiz</a>
                 <a href="../teaproblemset/index.html" class="list-group-item">课程题库</a>
-                <a href="../teaaddstudent/index.html" class="list-group-item active">添加学生</a>
+                <a href="../teamanagestudent/index.html" class="list-group-item">管理学生</a>
+                <a href="/index.html" class="list-group-item active">管理助教</a>
 
             </div>
         </div><!--/.sidebar-offcanvas-->
@@ -83,22 +84,22 @@
                         <div id="pageTitleBar">
                             <h1 id="pageTitleHeader">
                                 <span id="pageTitleText">
-                                    <span>添加学生</span>
+                                    <span>添加助教</span>
                                 </span>
                             </h1>
                         </div>
                     </div>
                     <div class="container">
 
-                        <form role="form" class="form-info" name="addstuform" action="/client/json/student/add/"
+                        <form role="form" class="form-info" name="addstuform" action="/client/json/ta/add/"
                               method="post" id="addstuform">
                             <div class="form-group">
                                 <div class="col-sm-6">
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th>学生姓名</th>
-                                            <th>学生学号</th>
+                                            <th>助教姓名</th>
+                                            <th>助教学号</th>
                                         </tr>
                                         </thead>
                                     </table>
@@ -112,7 +113,48 @@
                                     </button>
                                 </div>
                             </div>
-                            <input type="submit">
+                            <input type="submit" name="提交">
+                            <!--<div class="form-group">-->
+                            <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
+                            <!--</div>-->
+                        </form>
+                    </div>
+                </div>
+                <div id="content1" class="contentBox">
+                    <div id="pageTitleDiv1">
+                        <div id="pageTitleBar1">
+                            <h1 id="pageTitleHeader1">
+                                <span id="pageTitleText1">
+                                    <span>删除助教</span>
+                                </span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="container">
+
+                        <form role="form" class="form-info" name="addstuform" action="/client/json/ta/delete/"
+                              method="post" id="addstuform1">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>助教姓名</th>
+                                            <th>助教学号</th>
+                                        </tr>
+                                        </thead>
+                                    </table>
+                                    <div class="form-inline" style="margin-top: -17px;" id="stulist1">
+                                        <input class="form-control" type="text" name="stuname0">
+                                        <input class="form-control" type="text" name="stuid0">
+                                        <br>
+                                    </div>
+                                    <button type="button" class="btn btn-lg btn-primary" onclick="delete_stu()">
+                                        添加
+                                    </button>
+                                </div>
+                            </div>
+                            <input type="submit" name="提交">
                             <!--<div class="form-group">-->
                             <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
                             <!--</div>-->

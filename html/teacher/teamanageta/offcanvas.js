@@ -10,3 +10,10 @@ $("#stulist").append("<input class=\"form-control\"  type=\"text\" name=\"stunam
     "<input class=\"form-control\"  type=\"text\" name=\"stuid"+counter+"\"><br>")
     return false;
 }
+
+function delete_stu() {
+    counter++;
+    $("#stulist1").append("<input class=\"form-control\"  type=\"text\" name=\"stuname"+ counter+"\">\n" +
+        "<input class=\"form-control\"  type=\"text\" name=\"stuid"+counter+"\"><br>")
+    return false;
+}

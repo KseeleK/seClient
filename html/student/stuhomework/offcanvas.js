@@ -87,31 +87,27 @@ $(document).ready(function () {
             <p>` + question_obj.homework.choice.problems[i].content + `</p>
                   
 
-        <ol class="ques-answer ques-choice ques-list">
+        <ol  type="A">
             <li>
-            <label>
-            <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="A">
-            </label>` +
-                question_obj.homework.choice.problems[i].choiceA + `
-        </li>
-        <li>
-        <label>
-        <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="B">
-            </label>` +
-                question_obj.homework.choice.problems[i].choiceB + `
-        </li>
-        <li>
-        <label>
-        <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="C">
-            </label>` +
-                question_obj.homework.choice.problems[i].choiceC + `
-        </li>
-        <li>
-        <label>
-        <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="D">
-            </label>` +
-                question_obj.homework.choice.problems[i].choiceD + `
-        </li>
+                <label>
+                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="A">
+                ` + question_obj.homework.choice.problems[i].choiceA + `</label>
+            </li>
+            <li>
+                <label>
+                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="B">
+                    ` + question_obj.homework.choice.problems[i].choiceB + `</label>
+            </li>
+            <li>
+                <label>
+                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="C">
+                    ` + question_obj.homework.choice.problems[i].choiceC + `</label>
+            </li>
+            <li>
+                <label>
+                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="D">
+                   ` + question_obj.homework.choice.problems[i].choiceD + ` </label>
+            </li>
         </ol>
         </div>
         </div>
