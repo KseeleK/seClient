@@ -57,22 +57,21 @@
             </form>
 
 
-
-                <div class="text-center p-t-12">
+            <div class="text-center p-t-12">
 						<span class="txt1">
 							Forgot
 						</span>
-                    <a class="txt2" href="#">
-                        Username / Password?
-                    </a>
-                </div>
+                <a class="txt2" href="#">
+                    Username / Password?
+                </a>
+            </div>
 
-                <div class="text-center p-t-136">
-                    <a class="txt2" href="#">
-                        Create your Account
-                        <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-                    </a>
-                </div>
+            <div class="text-center p-t-136">
+                <a class="txt2" href="#">
+                    Create your Account
+                    <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -96,12 +95,12 @@
         $("#login").click(function () {
 
             var first_number = ($(" input[ name='account' ] ").val()[0]);
-            if(first_number=="3"){
-                $("#signinForm").attr('action',"../student/stumain/index.html");
-            }else if(first_number=="1"){
-                $("#signinForm").attr('action',"../teacher/teamain/index.html");
-            }else if(first_number=="2"){
-                $("#signinForm").attr('action',"../teacherassistant/tamain/index.html");
+            if (first_number == "3") {
+                $("#signinForm").attr('action', "../student/stumain/index.html");
+            } else if (first_number == "1") {
+                $("#signinForm").attr('action', "../teacher/teamain/index.html");
+            } else if (first_number == "2") {
+                $("#signinForm").attr('action', "../ta/tamain/index.html");
 
             }
             // alert($("#account").innerHTML);
