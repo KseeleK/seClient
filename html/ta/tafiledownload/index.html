@@ -70,7 +70,7 @@
                 <a href="../taproblemset/index.html" class="list-group-item">课程题库</a>
             </div>
         </div><!--/.sidebar-offcanvas-->
-
+        <div class="col-lg-6 col-sm-6">
         <div class="shadow">
             <div id="editmodeWrapper">
                 <div id="content" class="contentBox">
@@ -136,14 +136,15 @@
                                 </div>
                             </li>
                         </ul>
+                        <body>
+                        <form action="/upload/fileUpload" method="post" enctype="multipart/form-data">
+                            <input type="file" name="fileUpload" />
+                            <!--<input type="text" name="fileName" placeholder="文件名">-->
+                            <input type="submit" value="上传文件" />
+                        </form>
+                        </body>
                     </div>
-                    <body>
-                    <form action="/upload/fileUpload" method="post" enctype="multipart/form-data">
-                        <input type="file" name="fileUpload" />
-                        <!--<input type="text" name="fileName" placeholder="文件名">-->
-                        <input type="submit" value="上传文件" />
-                    </form>
-                    </body>
+                </div>
                 </div>
             </div>
         </div><!--/.col-xs-12.col-sm-9-->

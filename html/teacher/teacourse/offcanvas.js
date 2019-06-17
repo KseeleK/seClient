@@ -21,7 +21,7 @@ $(document).ready(function () {
     // alert(course_obj.description);
     var txt3 = document.createElement("p");
     txt3.innerHTML = course_obj.description;
-    $("#course_summary").append(txt3)
+    $("#course_summary").append(txt3);
     $("#course_summary").text = course_obj.description;
 
 });

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d790af-692f-4b0a-919f-b434c62449e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/html/ta/tacourse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ta/tacourse/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ta/tafiledownload/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ta/tafiledownload/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teacher/teacourse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourse/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teacher/teacourse/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teacourse/offcanvas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +33,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="16" />
-          <entry key="html" value="228" />
+          <entry key="css" value="17" />
+          <entry key="html" value="245" />
           <entry key="ico" value="1" />
-          <entry key="js" value="62" />
+          <entry key="js" value="66" />
           <entry key="md" value="1" />
           <entry key="text" value="2" />
           <entry key="txt" value="21" />
@@ -39,18 +44,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="16" />
-          <entry key="HTML" value="228" />
+          <entry key="CSS" value="17" />
+          <entry key="HTML" value="245" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="62" />
+          <entry key="JavaScript" value="66" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="144" />
-          <entry key="html" value="4792" />
-          <entry key="js" value="2908" />
+          <entry key="html" value="4818" />
+          <entry key="js" value="2932" />
           <entry key="md" value="269" />
           <entry key="txt" value="166" />
         </counts>
@@ -58,8 +63,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="144" />
-          <entry key="HTML" value="4815" />
-          <entry key="JavaScript" value="2885" />
+          <entry key="HTML" value="4841" />
+          <entry key="JavaScript" value="2909" />
           <entry key="PLAIN_TEXT" value="435" />
         </counts>
       </usages-collector>
@@ -68,87 +73,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/index.html">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teacourseware/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="588">
+              <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teaproblemset/index.html">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teacourseinfo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/offcanvas.js">
+        <entry file="file://$PROJECT_DIR$/html/ta/tatestmsg/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ta/tacourse/offcanvas.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teahomework/offcanvas.js">
+        <entry file="file://$PROJECT_DIR$/html/ta/tacourse/offcanvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1690" />
+            <state relative-caret-position="390">
+              <caret line="26" column="3" lean-forward="true" selection-end-line="26" selection-end-column="3" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/ta/tahomework/offcanvas.js">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/offcanvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+            <state relative-caret-position="390">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/student/stucourse/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/offcanvas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/text.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/ta/tacourse/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/teacher/teatestmsg/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            <state relative-caret-position="591">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -161,6 +166,7 @@
       <find>login100-form-btn</find>
       <find>disable</find>
       <find>alert</find>
+      <find>course_summary</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -172,16 +178,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/student/stuhomeworkmain/text.txt" />
         <option value="$PROJECT_DIR$/html/ta/tealab/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaproblemset/text.txt" />
         <option value="$PROJECT_DIR$/html/student/stuhomework/text.txt" />
         <option value="$PROJECT_DIR$/html/ta/taaddstudent/index.html" />
         <option value="$PROJECT_DIR$/html/ta/tacreateclass/index.html" />
-        <option value="$PROJECT_DIR$/html/ta/tafiledownload/index.html" />
         <option value="$PROJECT_DIR$/html/ta/tamain/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaproblemset/offcanvas.js" />
-        <option value="$PROJECT_DIR$/html/ta/tacourse/index.html" />
         <option value="$PROJECT_DIR$/html/ta/tacourseinfo/index.html" />
         <option value="$PROJECT_DIR$/html/ta/tacourseware/index.html" />
         <option value="$PROJECT_DIR$/html/ta/tahomework/index.html" />
@@ -209,20 +212,23 @@
         <option value="$PROJECT_DIR$/html/ta/taproblemset/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaaddstudent/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaaddta/index.html" />
-        <option value="$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js" />
         <option value="$PROJECT_DIR$/html/teacher/tealab/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teahomework/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teafiledownload/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teacourseware/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teacourseinfo/index.html" />
-        <option value="$PROJECT_DIR$/html/teacher/teacourse/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaschedule/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teatestmsg/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teamanagestudent/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teamanageta/index.html" />
         <option value="$PROJECT_DIR$/html/teacher/teaproblemset/index.html" />
+        <option value="$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js" />
         <option value="$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js" />
+        <option value="$PROJECT_DIR$/html/ta/tafiledownload/index.html" />
+        <option value="$PROJECT_DIR$/html/teacher/teacourse/offcanvas.js" />
+        <option value="$PROJECT_DIR$/html/teacher/teacourse/index.html" />
+        <option value="$PROJECT_DIR$/html/ta/tacourse/index.html" />
       </list>
     </option>
   </component>
@@ -257,6 +263,19 @@
               <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="seClient" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seClient" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="stucourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seClient" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="ta" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,48 +289,6 @@
               <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="seClient" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="ta" type="462c0819:PsiDirectoryNode" />
-              <item name="tacourseinfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="ta" type="462c0819:PsiDirectoryNode" />
-              <item name="tacourseware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="ta" type="462c0819:PsiDirectoryNode" />
-              <item name="tacreateclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="ta" type="462c0819:PsiDirectoryNode" />
-              <item name="tafiledownload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="ta" type="462c0819:PsiDirectoryNode" />
-              <item name="tahomework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="ta" type="462c0819:PsiDirectoryNode" />
-              <item name="tatestmsg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,97 +297,6 @@
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="teacher" type="462c0819:PsiDirectoryNode" />
               <item name="teacourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teacourseinfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teacourseware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teacreateclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teafiledownload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teahomework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teahomeworkmain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="tealab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teamain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teamanagestudent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teamanageta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teaproblemset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teaschedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seClient" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="teatestmsg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seClient" type="b2602c69:ProjectViewProjectNode" />
@@ -472,12 +358,12 @@
       <workItem from="1560085514056" duration="5336000" />
       <workItem from="1560255521632" duration="8725000" />
       <workItem from="1560320071158" duration="21353000" />
-      <workItem from="1560771267856" duration="2962000" />
+      <workItem from="1560771267856" duration="3479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69969000" />
+    <option name="totallyTimeSpent" value="70486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -509,17 +395,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/ta/tacreateclass/offcanvas.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/ta/taproblemset/offcanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/ta/tacreateclass/offcanvas.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/ta/tacourseinfo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -531,9 +406,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/offcanvas.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/offcanvas.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/teacher/teacourseinfo/offcanvas.js">
@@ -621,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/student/stucourse/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="65" column="27" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/ta/taproblemset/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -651,117 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teamain/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/tealab/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teahomework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="77" column="78" selection-start-line="77" selection-start-column="78" selection-end-line="77" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teacreateclass/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teacourseinfo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teacourseware/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-602">
-          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teaschedule/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/ta/tatestmsg/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teamanageta/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teatestmsg/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teaproblemset/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,16 +544,54 @@
     <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/text.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/ta/tacourse/index.html">
+    <entry file="file://$PROJECT_DIR$/html/teacher/teamanageta/offcanvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teatestmsg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teaschedule/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teaproblemset/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teamanageta/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="70" column="60" lean-forward="true" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="833">
           <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -807,10 +599,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/teacher/teamanagestudent/offcanvas.js">
+    <entry file="file://$PROJECT_DIR$/html/teacher/teamain/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="263">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/tealab/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teahomeworkmain/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="66" column="88" lean-forward="true" selection-start-line="66" selection-start-column="88" selection-end-line="66" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teahomework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="77" column="78" selection-start-line="77" selection-start-column="78" selection-end-line="77" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teafiledownload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teacreateclass/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teacourseware/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teacourseinfo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ta/tatestmsg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ta/tafiledownload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ta/tacourse/offcanvas.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ta/tacourse/offcanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="3" lean-forward="true" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/offcanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/student/stucourse/offcanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/student/stucourse/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/teacher/teacourse/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ta/tacourse/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
