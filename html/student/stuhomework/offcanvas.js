@@ -25,7 +25,7 @@ $(document).ready(function () {
             var tmp_html;
             tmp_html = `
             <div class="">
-                    <span>` +
+                    <span class="problemLabel">` +
                 "1-" + (i + 1) +
                 `
                     </span>
@@ -36,17 +36,17 @@ $(document).ready(function () {
             if (question_obj.homework.judge.problems[i].answer == "T") {
                 tmp_html = tmp_html +
                     `
-              <span>(2分)</span>
+              <span>&nbsp&nbsp(2分)</span>
               </p>
               </div>
               <div class="">
-                  <label>
+                  <label class="radio-inline">
                   <input  checked name="` + i + `" type="radio" value="T">
                   T
                   </label>
                   &nbsp; &nbsp; &nbsp; &nbsp;
-          <label>
-              <input  name="` + i + `" type="radio" value="F">
+                  <label class="radio-inline">
+                  <input  name="` + i + `" type="radio" value="F">
                   F
                   </label>
                   </div>
@@ -54,17 +54,17 @@ $(document).ready(function () {
           `
             } else {
                 tmp_html = tmp_html +
-                    `<span>(2分)</span>
+                    `<span>&nbsp&nbsp(2分)</span>
 
               </p>
               </div>
               <div class="">
-                  <label>
+                  <label class="radio-inline">
                   <input name="` + i + `" type="radio" value="T">
                   T
                   </label>
                   &nbsp; &nbsp; &nbsp; &nbsp;
-          <label>
+                <label class="radio-inline">
               <input checked name="` + i + `" type="radio" value="F">
                   F
                   </label>
@@ -72,7 +72,7 @@ $(document).ready(function () {
                   </div>
             </div>`
             }
-            $("#ques_entry").append(tmp_html);
+            $("#ques_entry").append(tmp_html+'<br>');
         }
         for (var i = 0; i < question_obj.homework.choice.number; i++) {
             id_map[i + question_obj.homework.judge.number] = question_obj.homework.choice.problems[i].id;
@@ -82,37 +82,33 @@ $(document).ready(function () {
             <span class="problemLabel">
             2-` + (i + 1) +
                 `</span>
+            
             <div class="problem">
             <div class="ques-view">
-            <p>` + question_obj.homework.choice.problems[i].content + `</p>
+            <p>` + question_obj.homework.choice.problems[i].content + `<span>&nbsp&nbsp(2分)</span></p>
                   
 
-        <ol  type="A">
-            <li>
-                <label>
-                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="A">
-                ` + question_obj.homework.choice.problems[i].choiceA + `</label>
-            </li>
-            <li>
-                <label>
-                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="B">
-                    ` + question_obj.homework.choice.problems[i].choiceB + `</label>
-            </li>
-            <li>
-                <label>
-                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="C">
-                    ` + question_obj.homework.choice.problems[i].choiceC + `</label>
-            </li>
-            <li>
-                <label>
-                <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="D">
-                   ` + question_obj.homework.choice.problems[i].choiceD + ` </label>
-            </li>
-        </ol>
+            <div>
+                    <label class="radio-inline">
+                    <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="A">
+                    A.` + question_obj.homework.choice.problems[i].choiceA + `</label><br>
+                        
+                    <label class="radio-inline">
+                    <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="B">
+                        B.` + question_obj.homework.choice.problems[i].choiceB + `</label><br>
+       
+                    <label class="radio-inline">
+                    <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="C">
+                        C.` + question_obj.homework.choice.problems[i].choiceC + `</label><br>
+   
+                    <label class="radio-inline">
+                    <input  name="` + (i + question_obj.homework.judge.number) + `" type="radio" value="D">
+                       D.` + question_obj.homework.choice.problems[i].choiceD + ` </label><br>
+            </div>
         </div>
         </div>
         </div>`;
-            $("#ques_entry1").append(tmp_html1);
+            $("#ques_entry1").append(tmp_html1+'<br>');
         }
 
     }

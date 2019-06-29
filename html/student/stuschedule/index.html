@@ -69,8 +69,9 @@
                 <a href="#" class="list-group-item">quiz</a>
             </div>
         </div><!--/.sidebar-offcanvas-->
+        <div class="col-md-6 col-sm-6">
 
-        <div class="shadow">
+    <div class="shadow">
             <div id="editmodeWrapper">
                 <div id="content" class="contentBox">
                     <div id="pageTitleDiv">
@@ -83,23 +84,11 @@
                         </div>
                     </div>
 
-                    <div class="container clearfix" id="containerdiv">
+                    <div class="container clearfix" id="containerdiv" style="padding-left: 15px">
                         <h2 class="hideoff" id="anonymous_element_7">内容</h2>
-                        <script type="text/javascript" src="/webapps/achievements/js/achievement.js"></script><script src="/javascript/scriptaculous/version_pinned_scriptaculous.js"></script><script type="text/javascript" src="https://c.zju.edu.cn/javascript/scriptaculous/builder.js?version=190"></script><script type="text/javascript" src="https://c.zju.edu.cn/javascript/scriptaculous/effects.js?version=190"></script><script type="text/javascript" src="https://c.zju.edu.cn/javascript/scriptaculous/dragdrop.js?version=190"></script><script type="text/javascript" src="https://c.zju.edu.cn/javascript/scriptaculous/controls.js?version=190"></script><link rel="stylesheet" href="/webapps/achievements/css/achievements.css" type="text/css" media="screen"><script type="text/javascript">
-                        new Ajax.Request('/webapps/achievements/checkAchievements.form', {
-                            method:'get',
-                            asynchronous:true,
-                            parameters: {courseId: '_2747_1', type: 1 },
-                            onSuccess: function(response) {
-                                var jsonArray = response.responseJSON;
-                                handleAchievements(jsonArray);
-                            },
-                            onFailure: function() { alert('Something went wrong...'); }
-                        });
-                    </script><script type="text/javascript"> Event.observe( document, "dom:loaded", function() { var language = window.navigator.userLanguage || window.navigator.language; var formatter = new Intl.DateTimeFormat(language); var minDate = new Date(2000, 0, 1); var x = document.getElementsByClassName("sofo-air-date"); for (var i = 0; i < x.length; i++) { var airDate = new Date(x[i].innerText); if (airDate.getYear() < minDate.getYear()) { var y2k = 2000; if (airDate.getYear() > 100) { y2k = 100; } airDate.setYear(airDate.getYear() + y2k); } x[i].innerText = formatter.format(airDate); }; }); </script><div class="vtbegenerated">
                         <h3 id="anonymous_element_8"><span style="color: #c00000; font-family: 楷体;"><span style="font-size: large;">第一周</span><span style="font-size: large;">(9.17-23)</span></span></h3>
                         <p><span style="font-size: medium;"><b><span style="color: red; font-family: 楷体;">教学内容：</span></b></span></p>
-                        <ul style="list-style-type: disc;">
+                        <ul style="list-style-type: disc; ">
                             <li><span style="font-family: 楷体;">Chapter 0</span><span style="font-family: 楷体;">：课程导读</span></li>
                             <li><span style="font-family: 楷体;">Chapter 1: Introduction</span></li>
                             <li>Linux安装<span style="font-family: 楷体;"></span></li>

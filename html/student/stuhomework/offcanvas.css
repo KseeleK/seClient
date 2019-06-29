@@ -87,6 +87,7 @@ ol {
   /*flex-basis: auto;*/
   /*margin-right: 0.5rem;*/
   /*white-space: nowrap;*/
+  font-weight: bold;
   display: inline-block;
 }
 

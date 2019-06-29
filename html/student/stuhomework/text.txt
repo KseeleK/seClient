@@ -26,9 +26,10 @@
             ]
         },
         "judge": {
-            "number": 0,
+            "number": 2,
             "problems": [
-
+                {"content": "1+1=?"},
+                {"content": "1+1=?"}
             ]
         }
      }
