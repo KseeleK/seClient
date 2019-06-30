@@ -141,11 +141,11 @@ $("#upload").click(function () {
         HomeworkAns: arr,
         Name: $("#homeName").val()
     }, function (resultJSONObject) {
-
-        if (resultJSONObject.success) {
-            $.messager.alert("系统提示", "添加成功", "info");
-        } else {
-            $.messager.alert("系统提示", "添加失败", "error");
-        }
+        alert("你本次的得分是"+resultJSONObject)
+        // if (resultJSONObject.success) {
+        //     $.messager.alert("系统提示", "添加成功", "info");
+        // } else {
+        //     $.messager.alert("系统提示", "添加失败", "error");
+        // }
     }, "json");
 });
