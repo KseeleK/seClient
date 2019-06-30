@@ -9,7 +9,7 @@ $(document).ready(function () {
         });
 
         $.ajax({
-            url: "text.txt", async: false,
+            url: "/client/json/homework/get/", async: false,
             xhrFields: {
                 withCredentials: true // 这里设置了withCredentials
             },
@@ -72,7 +72,7 @@ $(document).ready(function () {
                   </div>
             </div>`
             }
-            $("#ques_entry").append(tmp_html+'<br>');
+            $("#ques_entry").append(tmp_html + '<br>');
         }
         for (var i = 0; i < question_obj.homework.choice.number; i++) {
             id_map[i + question_obj.homework.judge.number] = question_obj.homework.choice.problems[i].id;
@@ -108,7 +108,7 @@ $(document).ready(function () {
         </div>
         </div>
         </div>`;
-            $("#ques_entry1").append(tmp_html1+'<br>');
+            $("#ques_entry1").append(tmp_html1 + '<br>');
         }
 
     }

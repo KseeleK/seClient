@@ -7,7 +7,7 @@ $(document).ready(function () {
     console.log(document.cookie);
     $.ajax({
         //headers: {'Cookie': document.cookie},
-        url: "text.txt", async: false,
+        url: "/client/json/homework/list/", async: false,
         xhrFields: {
             withCredentials: true // 这里设置了withCredentials
         },
