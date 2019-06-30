@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../teacreateclass/index.html">教师主页</a>
+            <a class="navbar-brand" href="../teamain/index.html">教师主页</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -64,125 +64,123 @@
                 <a href="../teatestmsg/index.html" class="list-group-item">考试安排</a>
                 <a href="/index.html" class="list-group-item">课程信息</a>
                 <a href="../teaschedule/index.html" class="list-group-item">教学日历</a>
-                <a href="../teacourseware/index.html" class="list-group-item">课件</a>
                 <a href="../teahomeworkmain/index.html" class="list-group-item">作业</a>
                 <a href="../teafiledownload/index.html" class="list-group-item">课程资料</a>
                 <a href="../tealab/index.html" class="list-group-item">实验</a>
-                <a href="#" class="list-group-item">quiz</a>
                 <a href="../teaproblemset/index.html" class="list-group-item">课程题库</a>
-                <a href="/index.html" class="list-group-item active">管理学生</a>
+                <a href="./index.html" class="list-group-item active">管理学生</a>
                 <a href="../teamanageta/index.html" class="list-group-item">管理助教</a>
             </div>
         </div><!--/.sidebar-offcanvas-->
         <div class="col-md-6 col-sm-6">
 
-        <div class="shadow">
-            <div id="editmodeWrapper">
-                <div id="content" class="contentBox">
-                    <div id="pageTitleDiv">
-                        <div id="pageTitleBar">
-                            <h1 id="pageTitleHeader">
+            <div class="shadow">
+                <div id="editmodeWrapper">
+                    <div id="content" class="contentBox">
+                        <div id="pageTitleDiv">
+                            <div id="pageTitleBar">
+                                <h1 id="pageTitleHeader">
                                 <span id="pageTitleText">
                                     <span>添加学生</span>
                                 </span>
-                            </h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <form role="form" class="form-info" name="addstuform" action="/client/json/student/add/"
+                                  method="post" id="addstuform">
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>学生姓名</th>
+                                                <th>学生学号</th>
+                                            </tr>
+                                            </thead>
+                                        </table>
+                                        <div class="form-inline" style="margin-top: -17px;" id="stulist">
+                                            <input class="form-control" type="text" name="stuname0">
+                                            <input class="form-control" type="text" name="stuid0">
+                                            <br>
+                                        </div>
+                                        <button type="button" class="btn btn-lg btn-primary" onclick="add_stu()">
+                                            添加
+                                        </button>
+                                    </div>
+                                </div>
+                                <input type="submit" name="提交">
+                                <!--<div class="form-group">-->
+                                <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
+                                <!--</div>-->
+                            </form>
                         </div>
                     </div>
-                    <div class="container">
-
-                        <form role="form" class="form-info" name="addstuform" action="/client/json/student/add/"
-                              method="post" id="addstuform">
-                            <div class="form-group">
-                                <div class="col-sm-6">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th>学生姓名</th>
-                                            <th>学生学号</th>
-                                        </tr>
-                                        </thead>
-                                    </table>
-                                    <div class="form-inline" style="margin-top: -17px;" id="stulist">
-                                        <input class="form-control" type="text" name="stuname0">
-                                        <input class="form-control" type="text" name="stuid0">
-                                        <br>
-                                    </div>
-                                    <button type="button" class="btn btn-lg btn-primary" onclick="add_stu()">
-                                        添加
-                                    </button>
-                                </div>
-                            </div>
-                            <input type="submit" name="提交">
-                            <!--<div class="form-group">-->
-                            <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
-                            <!--</div>-->
-                        </form>
-                    </div>
-                </div>
-                <div id="content1" class="contentBox">
-                    <div id="pageTitleDiv1">
-                        <div id="pageTitleBar1">
-                            <h1 id="pageTitleHeader1">
+                    <div id="content1" class="contentBox">
+                        <div id="pageTitleDiv1">
+                            <div id="pageTitleBar1">
+                                <h1 id="pageTitleHeader1">
                                 <span id="pageTitleText1">
                                     <span>删除学生</span>
                                 </span>
-                            </h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <form role="form" class="form-info" name="addstuform" action="/client/json/student/delete/"
+                                  method="post" id="addstuform1">
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>学生姓名</th>
+                                                <th>学生学号</th>
+                                            </tr>
+                                            </thead>
+                                        </table>
+                                        <div class="form-inline" style="margin-top: -17px;" id="stulist1">
+                                            <input class="form-control" type="text" name="stuname0">
+                                            <input class="form-control" type="text" name="stuid0">
+                                            <br>
+                                        </div>
+                                        <button type="button" class="btn btn-lg btn-primary" onclick="delete_stu()">
+                                            添加
+                                        </button>
+                                    </div>
+                                </div>
+                                <input type="submit" name="提交">
+                                <!--<div class="form-group">-->
+                                <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
+                                <!--</div>-->
+                            </form>
                         </div>
                     </div>
-                    <div class="container">
-
-                        <form role="form" class="form-info" name="addstuform" action="/client/json/student/delete/"
-                              method="post" id="addstuform1">
-                            <div class="form-group">
-                                <div class="col-sm-6">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th>学生姓名</th>
-                                            <th>学生学号</th>
-                                        </tr>
-                                        </thead>
-                                    </table>
-                                    <div class="form-inline" style="margin-top: -17px;" id="stulist1">
-                                        <input class="form-control" type="text" name="stuname0">
-                                        <input class="form-control" type="text" name="stuid0">
-                                        <br>
-                                    </div>
-                                    <button type="button" class="btn btn-lg btn-primary" onclick="delete_stu()">
-                                        添加
-                                    </button>
-                                </div>
-                            </div>
-                            <input type="submit" name="提交">
-                            <!--<div class="form-group">-->
-                            <!--<button type="button" class="btn-sm btn-primary" type="submit" form="addstuform">提交</button>-->
-                            <!--</div>-->
-                        </form>
-                    </div>
                 </div>
-            </div>
-        </div><!--/.col-xs-12.col-sm-9-->
-        <div>
+            </div><!--/.col-xs-12.col-sm-9-->
+            <div>
 
-    </div><!--/row-->
+            </div><!--/row-->
 
-    <hr>
+            <hr>
 
-    <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-    </footer>
+            <footer>
+                <p>&copy; 2016 Company, Inc.</p>
+            </footer>
 
-</div><!--/.container-->
+        </div><!--/.container-->
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-<script>window.jQuery || document.write('<script src="../../../vendor/jquery/jquery-3.2.1.min.js"><\/script>')</script>
-<script src="../../../dist/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
-<script src="offcanvas.js"></script>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+        <script>window.jQuery || document.write('<script src="../../../vendor/jquery/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="../../../dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+        <script src="offcanvas.js"></script>
 </body>
 </html>

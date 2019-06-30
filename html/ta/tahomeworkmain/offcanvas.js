@@ -31,7 +31,7 @@ $(document).ready(function () {
             <img src="../../../images/test_on.gif" class="item_icon" style="float: left">
             <div class="item" style="height: 30px">
             <h3>
-            <a href="../stuhomework/index.html?homeworkid=` + homework_obj.homework_list[i].id + `">
+            <a href="../../student/stuhomework/index.html?homeworkid=` + homework_obj.homework_list[i].id + `">
             <span style="color:#000000;">` +
             homework_obj.homework_list[i].name + `
         </span>
